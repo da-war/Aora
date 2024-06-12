@@ -1,12 +1,19 @@
 import { Text, View } from "react-native";
 import React from "react";
+import { Stack } from "expo-router";
+import { StatusBar } from "expo-status-bar";
+import AppStatusBar from "@/components/AppStatusBar";
 
-const _layout = () => {
+const RootLayout = () => {
   return (
-    <View>
-      <Text>_layout</Text>
-    </View>
+    <>
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="sign-in" />
+        <Stack.Screen name="sign-up" />
+      </Stack>
+      <AppStatusBar />
+    </>
   );
 };
 
-export default _layout;
+export default RootLayout;

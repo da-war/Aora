@@ -7,7 +7,7 @@ interface AppButtonProps {
   onPress: () => void;
   title: string;
   color?: string;
-  style?: object;
+  style?: any;
   loading?: boolean;
   textStyle?: object;
 }

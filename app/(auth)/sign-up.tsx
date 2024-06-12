@@ -5,6 +5,10 @@ const SignUp = () => {
   return (
     <View>
       <Text>sign-up</Text>
+      <Text>sign-up</Text>
+      <Text>sign-up</Text>
+      <Text>sign-up</Text>
+      <Text>sign-up</Text>
     </View>
   );
 };

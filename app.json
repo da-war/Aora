@@ -14,7 +14,8 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ranadawar.aora"
+      "bundleIdentifier": "com.ranadawar.aora",
+      "package": "com.ranadawar.aora"
     },
     "android": {
       "adaptiveIcon": {
